@@ -36,5 +36,14 @@ public class Main {
         } else {
             System.out.println("You can't get a student discount");
         }
+
+        // Reference Data Types
+        String name = "John Winchester";
+        String city = "Kansas City";
+        String food = "pizza";
+
+        System.out.println("Hello " + name + " from " + city);
+        System.out.println("Your favorite food is " + food);
+
     };
 };
